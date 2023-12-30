@@ -4,10 +4,12 @@
   font-family: 'Uncial Antiqua', cursive;
 } */
 
-
-
 body::before {
   display: block;
   content: '';
   height: 60px;
+}
+
+.img-arts {
+  height: 500px;
 }
