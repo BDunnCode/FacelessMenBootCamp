@@ -13,3 +13,7 @@ body::before {
 .img-arts {
   height: 500px;
 }
+
+.learn-img {
+  border-radius: 3.2px;
+}
