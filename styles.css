@@ -1,13 +1,20 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
-
- *{ 
-  font-family: 'Uncial Antiqua', cursive;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
 
 
+.thronesy-text {
+  font-family: Uncial Antiqua, cursive;
+}
 
 body::before {
   display: block;
   content: '';
   height: 60px;
+}
+
+.img-arts {
+  height: 500px;
+}
+
+.learn-img {
+  border-radius: 3.2px;
 }
