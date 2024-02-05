@@ -32,7 +32,27 @@ body::before {
     width: .8em;
     height: 1.1em;
   }
-}
+
+  /* Bootstrap, why do you make me do these things? */
+  #learn1 {
+    padding: 3em 0em 0em 0em !important;
+  }
+  
+  #learn2 {
+    padding: 0em 0em 3em 0em !important;
+  }
+
+  #questions {
+    padding: 3em 0em 3em 0em !important;
+  }
+
+  .section-2 {
+    padding: 3em 1.5em 3em 1.5em !important;
+  }
+
+  }
+
+
 
 @media screen and (min-width: 770px) and (max-width: 1020px) {
   .section-2 .card-body {
